@@ -11,6 +11,12 @@ const pizzaData = [
     soldOut: false,
   },
   {
+    name: "alison burger",
+    ingredients: "bread and toast",
+    price: 6,
+    soldOut: false,
+  },
+  {
     name: "Pizza Margherita",
     ingredients: "Tomato and mozarella",
     price: 10,

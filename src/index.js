@@ -147,7 +147,15 @@ function Footer() {
   // if (!isOpen) return <p>CLOSED</p>;
 
   return (
-    
+    <footer className="footer">
+      {isOpen ? (
+        <Order closeHour={closeHour} openHour={openHour} />
+      ) : (
+        <p>
+          We're happy to welcome you between {openHour}:00 and {closeHour}:00
+        </p>
+      )}
+    </footer>
   );
 }
 

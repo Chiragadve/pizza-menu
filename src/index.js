@@ -48,16 +48,6 @@ const pizzaData = [
   },
 ];
 
-function App() {
-  return (
-    <div className="container">
-      <Header />
-      <Menu />
-      <Footer />
-    </div>
-  );
-}
-
 function Header() {
   // const style = { color: "red", fontSize: "48px", textTransform: "uppercase" };
   const style = {};

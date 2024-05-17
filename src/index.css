@@ -128,18 +128,6 @@ body {
   font-weight: 400;
 }
 
-.pizza p {
-  font-size: 1.4rem;
-  font-weight: 300;
-  font-style: italic;
-  margin-bottom: auto;
-}
-
-.pizza span {
-  display: block;
-  font-size: 1.6rem;
-}
-
 .pizza.sold-out {
   color: #888;
 }

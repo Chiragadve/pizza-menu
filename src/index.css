@@ -63,14 +63,6 @@ body {
   top: calc(50% - 1px);
 }
 
-.header h1::before {
-  left: 0;
-}
-
-.header h1::after {
-  right: 0;
-}
-
 /* *************** */
 
 .menu {

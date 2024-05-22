@@ -64,7 +64,6 @@ body {
 }
 
 .header h1::before {
-  left: 0;
 }
 
 .header h1::after {
@@ -89,31 +88,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 500;
-}
-
-.menu > p {
-  font-size: 1.5rem;
-  text-align: center;
-  line-height: 1.6;
-  width: 80%;
-}
-
-.pizzas {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4.8rem;
-}
-
-.pizza {
-  display: flex;
-  gap: 3.2rem;
-}
-
-.pizza img {
-  width: 12rem;
-  aspect-ratio: 1;
-  align-self: start;
 }
 
 .pizza div {
